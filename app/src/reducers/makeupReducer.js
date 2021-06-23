@@ -3,7 +3,6 @@ import { FETCH_PRODUCT_START, FETCH_PRODUCT_SUCCESS, FETCH_PRODUCT_FAIL } from '
 const intialState = {
     name: '',
     brand: '',
-    image: '',
     isFetching: false,
     error: ''
 }

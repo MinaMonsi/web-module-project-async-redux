@@ -18,8 +18,7 @@ const Product = (props) => {
         <>
         <h2>{props.name}</h2>
         <h3>{props.brand}</h3>
-        <img src={props.image} alt="eyeshadow"/>
-        <button OnClick={() => props.fetchProduct()}>Fetch Makeup</button>
+        <button onClick={() => props.fetchProduct()}>Fetch Makeup</button>
         </> 
     )
 }
@@ -28,7 +27,6 @@ const mapStateToProps = (state) => {
     return{
         name: state.name,
         brand: state.brand,
-        image: state.image,
         loading: state.loading
     }
 }
