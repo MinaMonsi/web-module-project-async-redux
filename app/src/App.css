@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url("https://st2.depositphotos.com/1765488/7518/i/950/depositphotos_75181005-stock-photo-collection-of-professional-makeup-brushes.jpg");
+  background-size: cover;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(50px + 2vmin);
+  color: #f03954;
+  box-shadow: 10px 15px 18px #4f4e60;
+}
+
+button {
+  color: rgb(250, 247, 250);
+  background-color: #f03954;
+  margin: 30px;
+}
+
+.App-link {
+  color: #61dafb;
+}
